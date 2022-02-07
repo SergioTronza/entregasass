@@ -1,0 +1,14 @@
+.grid{
+    .header{
+        .padreUno{
+            background-color: aquamarine;
+            .link{
+                &:hover{
+                    background-color: brown;
+                }
+            }
+        }
+    }
+}
+
+@import './secciones/index'

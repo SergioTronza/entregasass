@@ -1,0 +1,9 @@
+.main{
+    background-color: yellow;
+    .prod{
+        color: red;
+        &:hover{
+            background-color: bisque;
+        }
+    }
+}
