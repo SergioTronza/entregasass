@@ -1,0 +1,13 @@
+$textoResaltado: (
+    spanUno: orange,
+    spanDos: cyan,
+    spanTres: green,
+);
+
+@each $frase, $color in $textoResaltado{
+    .#{$frase}{
+        color: $color;
+        font-weight: bold;
+        
+    }
+}

@@ -3,6 +3,18 @@
   .grid .header .padreUno .link:hover {
     background-color: brown; }
 
+.spanUno {
+  color: orange;
+  font-weight: bold; }
+
+.spanDos {
+  color: cyan;
+  font-weight: bold; }
+
+.spanTres {
+  color: green;
+  font-weight: bold; }
+
 .main {
   background-color: yellow; }
   .main .prod {
